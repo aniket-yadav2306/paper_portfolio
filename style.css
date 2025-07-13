@@ -425,3 +425,253 @@ html,body{
 #page5:hover h1{
     animation-play-state: paused;
 }
+/* Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+  #nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    gap: 10px;
+  }
+
+  #nav img, #nav h5, #nav i {
+    width: 100%;
+  }
+
+  #elems {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  #elem1, #elem2, #elem3 {
+    width: 100%;
+    padding: 0;
+    border: none !important;
+  }
+
+  #page1 h1 {
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  #page2 {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  #page2-left, #page2-right {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+
+  #page2-left h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  #page2-left h2 span {
+    font-size: 70px;
+  }
+
+  #page2-left p {
+    font-size: 18px;
+  }
+
+  #page2-right h1 {
+    font-size: 50px;
+  }
+
+  #page3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #page3 h1 {
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  #page3 img {
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  #page4 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #page4-left, #page4-right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #page4-right p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #anda {
+    height: 150px;
+  }
+
+  #anda h1 {
+    font-size: 24px;
+  }
+
+  #anda img {
+    height: 30px;
+  }
+
+  #page5 h1 {
+    font-size: 50px;
+  }
+
+  #page6 {
+    height: 60px;
+  }
+}
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #nav {
+    padding: 0 20px;
+  }
+
+  #elems {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+
+  #elem1, #elem2, #elem3 {
+    width: 100%;
+    padding: 0;
+    border: none !important;
+  }
+
+  #page1 h1 {
+    font-size: 150px;
+    line-height: 180px;
+  }
+
+  #page2 {
+    flex-direction: column;
+    padding: 50px 20px;
+    height: auto;
+  }
+
+  #page2-left, #page2-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  #page2-left h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  #page2-left h2 span {
+    font-size: 100px;
+  }
+
+  #page2-right h1 {
+    font-size: 60px;
+  }
+
+  #page3 h1 {
+    font-size: 150px;
+    line-height: 180px;
+  }
+
+  #page3 img {
+    height: 250px;
+  }
+
+  #page4 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #page4-left, #page4-right {
+    width: 100%;
+    padding: 30px;
+  }
+
+  #page4-right p {
+    font-size: 22px;
+  }
+
+  #page5 h1 {
+    font-size: 70px;
+  }
+}
+/* Optimized for MacBook M4 Pro screen size (1440px–1920px) */
+@media (min-width: 1440px) and (max-width: 1920px) {
+  #page1 h1 {
+    font-size: 220px;
+    line-height: 250px;
+  }
+
+  #elems {
+    padding: 40px 80px;
+  }
+
+  #elem2 h2 {
+    font-size: 65px;
+  }
+
+  #elem2 h3 {
+    font-size: 28px;
+  }
+
+  #page2 {
+    padding: 60px 40px;
+  }
+
+  #page2-left h2 {
+    font-size: 70px;
+    line-height: 90px;
+  }
+
+  #page2-left h2 span {
+    font-size: 130px;
+  }
+
+  #page2-left p {
+    font-size: 28px;
+  }
+
+  #page2-right h1 {
+    font-size: 80px;
+  }
+
+  #page3 h1 {
+    font-size: 200px;
+    line-height: 250px;
+  }
+
+  #page4-left, #page4-right {
+    padding: 60px 50px;
+  }
+
+  #page4-right p {
+    font-size: 26px;
+  }
+
+  #anda h1 {
+    font-size: 32px;
+  }
+
+  #page5 h1 {
+    font-size: 85px;
+  }
+}
